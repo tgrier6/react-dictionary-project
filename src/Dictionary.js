@@ -16,7 +16,7 @@ export default function Dictionary() {
 
     //API found at https://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
-    console.log(apiUrl);
+    //console.log(apiUrl);
     axios.get(apiUrl).then(handleResponse);
   }
 
