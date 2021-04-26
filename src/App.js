@@ -7,13 +7,13 @@ function App() {
       <div className="container">
         <header className="App-header">
           <img
-            src="https://www.bostonmagazine.com/wp-content/uploads/sites/2/2018/03/dictionary.jpg"
+            src="https://s3.amazonaws.com/prod.assets.thebanner/styles/article-large/s3/article/large/TIN-332%20Books%20from_large.jpg?itok=goIsOQs0"
             className="App-logo"
             alt="logo"
           />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="Wine" />
         </main>
       </div>
       <footer className="text-center">
